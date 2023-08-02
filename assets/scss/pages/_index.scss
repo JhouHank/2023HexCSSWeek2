@@ -1,0 +1,160 @@
+// *{
+//     outline: 1px solid 
+// }
+body{
+  font-family: 'Bruno Ace', cursive;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 16px;
+  line-height: 150%;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.fz-h1{
+  font-size: 128px;
+}
+.h2{
+  font-size: 40px;
+}
+.fz-1{
+  font-size: 64px;
+  line-height: 150%;
+}
+.fz-2{
+  font-size: 24px;
+  line-height: 150%;
+}
+.fz-3{
+  font-size: 20px;
+  line-height: 150%;
+}
+.pt-40{
+  padding-top: 40px;
+}
+.py-72{
+  padding: 72px 0;
+}
+.py-160{
+  padding: 160px 0;
+}
+.mt-96{
+  margin-top: 96px;
+}
+.mb-96{
+  margin-bottom: 96px;
+}
+.mb-28{
+  margin-bottom: 28px;
+}
+.py-40{
+  padding: 40px 0;
+}
+.green{
+  background: #00FFA3;
+}
+.black{
+  color: #000;
+}
+.light-black{
+  color: #15161D;
+}
+.bl
+///////共用選擇器///////
+.nav{
+  .container{
+      ul{
+          li{
+              width: 306px;
+              gap: 61px;
+          }
+      }
+  }
+}
+main{
+  .container{
+      .left{
+          img{
+              width: 636px;
+          }
+      }
+      .right{
+          h1{
+              color: #00FFA3;
+              font-size: 128px;
+              line-height: 150%;
+          }
+      }
+  }
+}
+.intro{
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+  background-size: cover;
+  .container{
+      .left_intro{
+          h2{
+              margin-bottom: 36px;
+          }
+          p{
+              margin-bottom: 32px;
+          }
+      }
+  }
+}
+.white{
+  background-color: #E3E3E3;
+  .container{
+      ul{
+          li{
+              border: 1px solid #E3E3E3;
+              box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+              padding: 16px;
+              gap: 4px;
+          }
+      }
+  }
+}
+.liner{
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  .container{
+      .left{
+          img{
+              width: 100px;
+              height: 100px;
+          }
+      }
+      ul{
+          justify-content: center;
+          align-items: flex-start;
+          gap: 20px;
+          li{
+              a{
+                  img{
+                      width: 162px;
+                  }
+              }
+          }
+      }
+  }
+}
+.project{
+  .main{
+      .right{
+          .up{
+              .up_right{
+                  .btn{
+                      padding: 12px 24px;
+                      font-size: 16px;
+                  }
+              }
+          }
+      }
+  }
+}
+footer{
+  background: #000;
+  p{
+      color: #fff;
+  }
+}
